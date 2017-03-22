@@ -1,0 +1,148 @@
+html,body {
+  margin: 0;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  color: #333;
+  letter-spacing: 5px;
+}
+
+header {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 72px;
+  text-shadow: 0 0 5px #555;
+  margin-bottom: 20px;
+  font-family: serif;
+  font-weight: 500;
+}
+
+header .sub {
+  color: #59b;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 25px 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 5px;
+}
+
+.sub span {
+  margin: 0 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+  width: 90%;
+  margin: 10px auto 4em auto;
+  display: block;
+  min-height: 100px;
+  box-shadow: 0 0 2px #edd;
+  border-radius: 5px;
+  padding: 1em 0 2em 0;
+}
+
+main .item {
+  padding: 2.5% 5%;
+}
+
+main hr {
+  color: #555;
+  width: 90%;
+  margin: 10px auto;
+}
+
+main .item h3 {
+  font-family: serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #bbb;
+}
+
+main .item p {
+  font-size: 24px;
+  color: #333;
+  line-height: 1.5;
+}
+
+a, a:hover, a:visited, a:active {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  border-bottom: dotted 1px #000; 
+}
+
+a.twitter {
+  color: #08a !important;
+}
+
+a.dribble {
+  color: #d48 !important;
+}
+
+a.instagram {
+  color: #765 !important;
+}
+
+a.kickstarter {
+  color: #8c5 !important;
+}
+
+main .heading {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+main .items h2 {
+  letter-spacing: 0;
+  display: inline;
+  border-bottom: dotted 1px #000;
+}
+
+.items a span {
+  font-size: small;
+  color: #555;
+  border-bottom: 0;
+}
+.items a {
+  border-bottom: 0;
+  display: block;
+  margin: 2em 0;
+
+}
+
+footer {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  padding: 10px 0;
+  border-top: dotted 1px #333;
+}
+
+footer div {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
